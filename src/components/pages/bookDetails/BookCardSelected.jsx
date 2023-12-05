@@ -3,7 +3,7 @@ import "./bookcardselected.css";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { changeNavigation } from "../../../redux/navSlice";
-import { removeBook } from "../../../redux/BookSlice";
+import { removeBook } from "../../../redux/bookSlice";
 export default function BookCardSelected({ bookInfo }) {
   const dispatch = useDispatch();
   const { id } = useParams();
