@@ -1,0 +1,29 @@
+.bookCardRoot{
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    background-color: rgb(209, 78, 99);
+    color: white;
+    margin:20px;
+    padding:20px;
+    font:20px;
+}
+.selectedCardDetails{
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr;
+    row-gap:50px;
+}
+.selectedCardDetails span{
+text-transform: capitalize;
+margin: 5px;
+}
+.buttons{
+    padding:10px;
+    margin:10px;
+    font-size: 18px;
+    background-color: grey;
+    border-radius: 4px;
+    font-weight: 700;
+    color: white;
+
+}

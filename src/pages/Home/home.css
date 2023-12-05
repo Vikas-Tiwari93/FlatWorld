@@ -1,0 +1,20 @@
+.Navroot{
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    border-radius:4px ;
+    color:white;
+    background-color: rgb(28, 28, 180);
+}
+.Routes{
+    display: flex;
+    gap:20px;
+}
+.Routes:hover{
+ cursor: pointer;
+}
+.selected{
+    text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.Updatebook{
+    width:500px;
+    padding:20px;
+    background-color: rgb(209, 78, 99);
+    color: white;
+    border-radius:8px;
+
+}
+.Updatebook span{
+    text-wrap: nowrap;
+}
+.updatedCardDetails{
+    display:grid;
+    grid-template-columns: 0.5fr 1fr;
+   
+}
+.updatedCardDetails span{
+    padding:10px;
+}
+.buttons:hover{
+    cursor: pointer;
+    opacity:0.7
+}

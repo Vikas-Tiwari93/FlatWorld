@@ -1,0 +1,28 @@
+.bookCard{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+padding:10px;
+border-radius: 1px solid grey;
+background-color: rgb(199, 91, 109);
+color:white;
+border-radius: 6px;
+}
+.bookCard:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgb(156, 154, 154)
+}
+.cardRows{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    gap:5px;
+}
+.cardRows span{
+    text-transform: capitalize;
+    }
+.info{
+    max-width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
