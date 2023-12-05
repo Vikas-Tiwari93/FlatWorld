@@ -3,7 +3,7 @@ import "./admin.css";
 import { useDispatch, useSelector } from "react-redux";
 import BookCard from "../../components/common/BookCard";
 import { useNavigate } from "react-router-dom";
-import { selectedBook, selectedBookIndex } from "../../redux/BookSlice";
+import { selectedBook, selectedBookIndex } from "../../redux/bookSlice";
 import Addbook from "../../components/pages/home/Addbook";
 export default function Admin() {
   let navigate = useNavigate();
